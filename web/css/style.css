@@ -1,0 +1,103 @@
+h1, .titre_menu {
+    text-align: center;
+}
+
+h1 {
+    font-size:2em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 8%, rgba(117,117,117,1) 100%);
+}
+
+.buttonMyStyle {
+    font-size: 1.2em;
+}
+
+.login {
+    background-color: white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulaire, .confirmation {
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body {
+    background-color: rgb(235,235,235);
+}
+
+.listeEquipes {
+    display: flex;
+    justify-content:space-between;
+}
+
+.match {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+
+.score, .quand {
+    display: flex;
+    align-items: flex-end;
+}
+
+.score, .quand, .equipes {
+    padding:10px;
+}
+
+.score {
+    margin-left:-30px;
+}
+
+.quand {
+    text-align: center;
+    margin-right: 25px;
+
+}
+
+.lieu {
+    margin-left : -50px;
+    cursor: pointer;
+    color: darkcyan;
+    opacity: 0.7;
+}
+
+
+
+.titreMatch {
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.stade {
+    display: none;
+    margin-top: -20px;
+}
+
+
+
+
+
